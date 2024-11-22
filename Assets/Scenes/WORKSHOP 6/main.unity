@@ -158,6 +158,10 @@ PrefabInstance:
       propertyPath: m_ActionEvents.Array.data[2].m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5200511286235394988, guid: e1948abb33603da4097b1687b4fd7a7d, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1277518161}
     - target: {fileID: 8544035360652236133, guid: e1948abb33603da4097b1687b4fd7a7d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 53.05
@@ -659,6 +663,11 @@ MonoBehaviour:
   onComparedAndTrue:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &1277518161 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1396547005418732235, guid: e1948abb33603da4097b1687b4fd7a7d, type: 3}
+  m_PrefabInstance: {fileID: 37802035}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1555349843
 GameObject:
   m_ObjectHideFlags: 0
