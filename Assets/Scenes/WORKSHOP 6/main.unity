@@ -267,6 +267,7 @@ GameObject:
   - component: {fileID: 1107336106}
   - component: {fileID: 1107336108}
   - component: {fileID: 1107336107}
+  - component: {fileID: 1107336109}
   m_Layer: 0
   m_Name: Enemy health MKS
   m_TagString: Untagged
@@ -313,7 +314,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sample text
+  m_text: 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -427,6 +428,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1107336109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107336105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1749f192ab89e429675b0da308083d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterText: {fileID: 1107336107}
+  onComparedAndTrue:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1108667521
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,6 +724,7 @@ GameObject:
   - component: {fileID: 1632611777}
   - component: {fileID: 1632611780}
   - component: {fileID: 1632611779}
+  - component: {fileID: 1632611781}
   m_Layer: 0
   m_Name: ENEMY MKS
   m_TagString: Untagged
@@ -775,7 +793,7 @@ Transform:
   m_GameObject: {fileID: 1632611776}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56.679924, y: 17.961916, z: 0}
+  m_LocalPosition: {x: 62.42, y: 15.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -809,7 +827,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 1
+          m_FloatArgument: -1
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -869,6 +887,34 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!114 &1632611781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632611776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1749f192ab89e429675b0da308083d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterText: {fileID: 1107336107}
+  onComparedAndTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1632611781}
+        m_TargetAssemblyTypeName: UICounter, Assembly-CSharp
+        m_MethodName: CompareCounter
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1639828804
 GameObject:
   m_ObjectHideFlags: 0
