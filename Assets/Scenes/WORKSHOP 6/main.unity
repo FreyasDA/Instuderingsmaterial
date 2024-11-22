@@ -494,7 +494,6 @@ GameObject:
   - component: {fileID: 1107336106}
   - component: {fileID: 1107336108}
   - component: {fileID: 1107336107}
-  - component: {fileID: 1107336109}
   m_Layer: 0
   m_Name: Enemy health MKS
   m_TagString: Untagged
@@ -655,22 +654,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &1107336109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107336105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf1749f192ab89e429675b0da308083d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  counterText: {fileID: 1107336107}
-  onComparedAndTrue:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!95 &1277518161 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1396547005418732235, guid: e1948abb33603da4097b1687b4fd7a7d, type: 3}
