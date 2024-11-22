@@ -89,6 +89,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: brick (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Size.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Size.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 650692656, guid: 5f6f666e09ac4114381cee948862a958, type: 3}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -212,6 +228,22 @@ PrefabInstance:
     - target: {fileID: 6435706921712225438, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
       propertyPath: m_Name
       value: brick (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Size.x
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Size.y
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -563968786, guid: 5f6f666e09ac4114381cee948862a958, type: 3}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -337,6 +369,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: brick
       objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -563968786, guid: 5f6f666e09ac4114381cee948862a958, type: 3}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -398,6 +438,14 @@ PrefabInstance:
     - target: {fileID: 6435706921712225438, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
       propertyPath: m_Name
       value: brick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -563968786, guid: 5f6f666e09ac4114381cee948862a958, type: 3}
+    - target: {fileID: 7150026084212263228, guid: 83ed09b40d151be48b5bc1470198a539, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
