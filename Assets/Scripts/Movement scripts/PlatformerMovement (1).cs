@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -87,6 +88,15 @@ public class PlatformerMovement : MonoBehaviour
                 spriteRenderer.flipX = false;
             else if (moveInput.x < -0.01f)
                 spriteRenderer.flipX = true;
+        }
+
+        if (Math.Abs(moveInput.x) > 0.01f)
+        {
+            animator.SetBool("IsRunning", true);
+        }
+        else
+        {
+            animator.SetBool("IsRunning", false);
         }
     }
 
