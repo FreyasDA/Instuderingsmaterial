@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 971262201}
   - component: {fileID: 971262200}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Ambient musik
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -254,7 +254,7 @@ AudioSource:
   m_GameObject: {fileID: 971262199}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -680946348885320538, guid: 76f04261ec7a8b44ebf767bb1bff5c28, type: 2}
   m_audioClip: {fileID: 8300000, guid: e585d0ea37ae4834cae526714e8bfdc3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
